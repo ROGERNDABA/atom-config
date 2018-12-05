@@ -1,0 +1,46 @@
+"*":
+  "atom-beautify":
+    css:
+      beautify_on_save: true
+      convert_quotes: "single"
+    general:
+      _analyticsUserId: "36d570b6-1a36-45fd-a08f-ba15e9751cae"
+    handlebars:
+      beautify_on_save: true
+      indent_inner_html: true
+    js:
+      beautify_on_save: true
+      object_curly_spacing: true
+  "atom-clock": {}
+  autosave:
+    enabled: true
+  "color-picker":
+    uppercaseColorValues: true
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "city-lights-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    fontSize: 11
+    invisibles:
+      eol: " "
+    showInvisibles: true
+    tabLength: 4
+    tabType: "hard"
+  "exception-reporting":
+    userId: "5d622a47-4501-4bd6-b10b-2f221867d76b"
+  "git-control": {}
+  "platformio-ide-terminal":
+    ansiColors:
+      normal:
+        yellow: "#ffd600"
+    core:
+      autoRunCommand: "clear"
+      mapTerminalsTo: "Folder"
+    style: {}
+  "tree-view-git-branch":
+    separator: true
+  welcome:
+    showOnStartup: false
