@@ -15,6 +15,8 @@
       max_line_length: 80
       sort_imports: true
   "atom-clock": {}
+  autocomplete:
+    includeCompletionsFromAllBuffers: true
   "autocomplete-python":
     useKite: false
   autosave:
@@ -22,21 +24,34 @@
   "color-picker":
     uppercaseColorValues: true
   core:
+    disabledPackages: [
+      "webbox-color"
+    ]
     telemetryConsent: "limited"
     themes: [
       "city-lights-ui"
       "one-dark-syntax"
     ]
+    titleBar: "custom"
   editor:
-    fontSize: 11
+    fontFamily: "Consolas"
+    fontSize: 12
     invisibles:
       eol: " "
+    lineHeight: 1.2
+    preferredLineLength: 100
     showInvisibles: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 8
     tabLength: 4
     tabType: "hard"
   "exception-reporting":
     userId: "5d622a47-4501-4bd6-b10b-2f221867d76b"
   "git-control": {}
+  "linter-ui-default": {}
+  pigments:
+    markerType: "native-dot"
   "platformio-ide-terminal":
     ansiColors:
       normal:
@@ -47,5 +62,7 @@
     style: {}
   "tree-view-git-branch":
     separator: true
+  "webbox-color":
+    fillColorAsBackground: false
   welcome:
     showOnStartup: false

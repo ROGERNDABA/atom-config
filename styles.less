@@ -15,29 +15,114 @@
  * (To see them, uncomment and save)
  */
 
+// .icon-file-directory {
+// 	color: aliceblue;
+// }
+
+
+
+*{
+
+	font-family: Consolas !important;
+}
+
+.syntax--source.syntax--css .syntax--property-name.syntax--support, .syntax--source.syntax--css .syntax--property-value.syntax--support {
+     color: #61afef; 
+}
+
+.syntax--comment {
+	color: #666d81;
+}
+
+.syntax--comment .syntax--markup.syntax--link {
+	color: #539afc;
+}
+
+.line-number {
+	font-weight: bold !important;
+}
+
+.tab.active {
+	background-color: black !important;
+}
+
+.tab-bar {
+	border-top: 2px solid #ff9900;
+}
+
+.tab-bar .tab {
+	font-weight: bold;
+	font-size: 12px;
+	color: #ff9900;
+}
+
+.tab-bar .tab.active:after {
+	background-image: linear-gradient(to left, #ff9900, #ff9900);
+}
+
+.branch-label {
+	color: hotpink;
+}
+
+.project-root-header {
+	font-size: 15px;
+	color: lawngreen !important;
+}
+
+.list-item  {
+	font-weight: bold;
+	color: #ff9900 !important;
+}
 // style the background color of the tree view
 .tree-view {
-  // background-color: whitesmoke;
+  background-color: black !important;
+}
+
+.item-views .tree-view .list-tree .list-item.file {
+	color: white !important;
 }
 
 // style the background and foreground colors on the atom-text-editor-element itself
 atom-text-editor {
+	.gutter .line-number {
+    	color: #ffffff !important;
+		background-color: black
+  	}
   color: rgb(216, 142, 33);
-  // background-color: hsl(180, 24%, 12%);
+  background-color: black;
 }
 
 // style UI elements inside atom-text-editor
 atom-text-editor .cursor {
-  // border-color: red;
+	// width: 5px !important;
+	background-color: red;
+	height: 20px !important;
+	top: -3px;
+	border: 1px solid red;
+  	border-color: red !important;
 }
 
 
 .indent-guide-improved {
   background-color: gray;
   &.indent-guide-stack {
-    background-color: cyan;
+    background-color: rgb(121, 169, 230);
     &.indent-guide-active {
       background-color: #ff9900;
     }
   }
 }
+
+
+.status-bar {
+	background-color: black;
+}
+
+.scroll-view {
+   // Align the Background Image with Editing Area
+   padding-left: 0;
+   color: #ff9900;
+   // I put the background image under ~/.atom/images
+	background-color: black;
+   background-size: cover !important;
+ }
